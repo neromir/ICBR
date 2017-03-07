@@ -1,0 +1,117 @@
+{
+    "textures": {
+        "ringLauncher": "blocks/stonebrick",
+        "particle": "blocks/stonebrick"
+    },
+    "elements": [
+        {
+            "from": [2, 0, 2],
+            "to": [14, 2, 14],
+            "faces": {
+                "down": {
+                    "uv": [0, 0, 12, 12],
+                    "texture": "#ringLauncher",
+                    "cullface": "down"
+                },
+                "up": {
+                    "uv": [0, 0, 12, 12],
+                    "texture": "#ringLauncher"
+                },
+                "north": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "south": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "west": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "east": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                }
+            }
+        },
+        {
+            "from": [4, 2, 4],
+            "to": [12, 6, 12],
+            "faces": {
+                "north": {
+                    "uv": [0, 0, 8, 4],
+                    "texture": "#ringLauncher"
+                },
+                "south": {
+                    "uv": [0, 0, 8, 4],
+                    "texture": "#ringLauncher"
+                },
+                "west": {
+                    "uv": [0, 0, 8, 4],
+                    "texture": "#ringLauncher"
+                },
+                "east": {
+                    "uv": [0, 0, 8, 4],
+                    "texture": "#ringLauncher"
+                }
+            }
+        },
+        {
+            "from": [2, 6, 2],
+            "to": [14, 8, 14],
+            "faces": {
+                "down": {
+                    "uv": [0, 0, 12, 12],
+                    "texture": "#ringLauncher"
+                },
+                "up": {
+                    "uv": [0, 0, 12, 12],
+                    "texture": "#ringLauncher"
+                },
+                "north": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "south": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "west": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                },
+                "east": {
+                    "uv": [0, 0, 12, 2],
+                    "texture": "#ringLauncher"
+                }
+            }
+        },
+        {
+            "from": [6, 8, 6],
+            "to": [10, 15, 10],
+            "faces": {
+                "up": {
+                    "uv": [0, 0, 4, 4],
+                    "texture": "#ringLauncher"
+                },
+                "north": {
+                    "uv": [0, 0, 4, 7],
+                    "texture": "#ringLauncher"
+                },
+                "south": {
+                    "uv": [0, 0, 4, 7],
+                    "texture": "#ringLauncher"
+                },
+                "west": {
+                    "uv": [0, 0, 4, 7],
+                    "texture": "#ringLauncher"
+                },
+                "east": {
+                    "uv": [0, 0, 4, 7],
+                    "texture": "#ringLauncher"
+                }
+            }
+        }
+    ]
+}

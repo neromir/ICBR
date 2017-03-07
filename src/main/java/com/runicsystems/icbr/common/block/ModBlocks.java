@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModBlocks
 {
 	public static BlockOre oreCopper;
+	public static RingLauncher ringLauncher;
 
 	public static void init()
 	{
 		oreCopper = register(new BlockOre("oreCopper").setCreativeTab(CreativeTabs.MATERIALS));
+		ringLauncher = register(new RingLauncher().setCreativeTab(CreativeTabs.MISC));
 	}
 
 	private static <T extends Block> T register(T block, ItemBlock itemBlock)

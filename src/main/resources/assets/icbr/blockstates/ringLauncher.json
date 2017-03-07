@@ -1,0 +1,12 @@
+{
+    "forge_marker": 1,
+    "variants": {
+        "normal": {
+            "model": "icbr:ringLauncher"
+        },
+        "inventory": {
+            "model": "icbr:ringLauncher",
+            "transform": "forge:default-block"
+        }
+    }
+}
