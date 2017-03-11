@@ -11,11 +11,13 @@ public class ModItems
 {
 	public static ItemBase ingotCopper;
 	public static ItemBase copperCoil;
+	public static ItemBase wireCopper;
 
 	public static void init()
 	{
 		ingotCopper = register(new ItemBase("ingotCopper"));
 		copperCoil = register(new ItemBase("copperCoil"));
+		wireCopper = register(new ItemBase("wireCopper"));
 	}
 
 	private static <T extends Item> T register(T item)

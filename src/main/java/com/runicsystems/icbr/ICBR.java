@@ -4,6 +4,7 @@ import com.runicsystems.icbr.client.CreativeTab;
 import com.runicsystems.icbr.common.CommonProxy;
 import com.runicsystems.icbr.common.block.ModBlocks;
 import com.runicsystems.icbr.common.item.ModItems;
+import com.runicsystems.icbr.common.recipe.ModRecipes;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -41,6 +42,7 @@ public class ICBR
 	public void init(FMLInitializationEvent event)
 	{
 //		proxy.init(event);
+		ModRecipes.init();
 	}
 
 	@Mod.EventHandler
