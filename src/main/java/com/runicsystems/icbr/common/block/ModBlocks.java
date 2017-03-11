@@ -1,7 +1,6 @@
 package com.runicsystems.icbr.common.block;
 
 import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -16,8 +15,8 @@ public class ModBlocks
 
 	public static void init()
 	{
-		oreCopper = register(new BlockOre("oreCopper").setCreativeTab(CreativeTabs.MATERIALS));
-		ringLauncher = register(new RingLauncher().setCreativeTab(CreativeTabs.MISC));
+		oreCopper = register(new BlockOre("oreCopper"));
+		ringLauncher = register(new RingLauncher());
 	}
 
 	private static <T extends Block> T register(T block, ItemBlock itemBlock)

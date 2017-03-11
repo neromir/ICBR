@@ -1,5 +1,6 @@
 package com.runicsystems.icbr;
 
+import com.runicsystems.icbr.client.CreativeTab;
 import com.runicsystems.icbr.common.CommonProxy;
 import com.runicsystems.icbr.common.block.ModBlocks;
 import com.runicsystems.icbr.common.item.ModItems;
@@ -24,6 +25,8 @@ public class ICBR
 	public static ICBR instance = new ICBR();
 	@SidedProxy(clientSide = "com.runicsystems.icbr.client.ClientProxy", serverSide = "com.runicsystems.icbr.common.CommonProxy")
 	public static CommonProxy proxy;
+
+	public static final CreativeTab creativeTab = new CreativeTab();
 
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)

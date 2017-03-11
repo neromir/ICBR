@@ -21,6 +21,7 @@ public class BlockBase extends Block
 
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		setCreativeTab(ICBR.creativeTab);
 	}
 
 	public void registerItemModel(ItemBlock itemBlock)
