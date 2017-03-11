@@ -2,11 +2,19 @@
     "forge_marker": 1,
     "variants": {
         "normal": {
-            "model": "icbr:ringLauncher"
+            "model": "icbr:ringLauncher",
+            "textures": {
+                "main": "icbr:blocks/ringLauncher",
+                "stonebrick": "blocks/stonebrick"
+            }
         },
         "inventory": {
             "model": "icbr:ringLauncher",
-            "transform": "forge:default-block"
+            "transform": "forge:default-block",
+            "textures": {
+                "main": "icbr:blocks/ringLauncher",
+                "stonebrick": "blocks/stonebrick"
+            }
         }
     }
 }

@@ -1,7 +1,6 @@
 {
     "textures": {
-        "ringLauncher": "blocks/stonebrick",
-        "particle": "blocks/stonebrick"
+        "particle": "#main"
     },
     "elements": [
         {
@@ -10,28 +9,28 @@
             "faces": {
                 "down": {
                     "uv": [0, 0, 12, 12],
-                    "texture": "#ringLauncher",
+                    "texture": "#stonebrick",
                     "cullface": "down"
                 },
                 "up": {
                     "uv": [0, 0, 12, 12],
-                    "texture": "#ringLauncher"
+                    "texture": "#stonebrick"
                 },
                 "north": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 14, 14, 16],
+                    "texture": "#main"
                 },
                 "south": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 14, 14, 16],
+                    "texture": "#main"
                 },
                 "west": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 14, 14, 16],
+                    "texture": "#main"
                 },
                 "east": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 14, 14, 16],
+                    "texture": "#main"
                 }
             }
         },
@@ -40,20 +39,20 @@
             "to": [12, 6, 12],
             "faces": {
                 "north": {
-                    "uv": [0, 0, 8, 4],
-                    "texture": "#ringLauncher"
+                    "uv": [4, 10, 12, 14],
+                    "texture": "#main"
                 },
                 "south": {
-                    "uv": [0, 0, 8, 4],
-                    "texture": "#ringLauncher"
+                    "uv": [4, 10, 12, 14],
+                    "texture": "#main"
                 },
                 "west": {
-                    "uv": [0, 0, 8, 4],
-                    "texture": "#ringLauncher"
+                    "uv": [4, 10, 12, 14],
+                    "texture": "#main"
                 },
                 "east": {
-                    "uv": [0, 0, 8, 4],
-                    "texture": "#ringLauncher"
+                    "uv": [4, 10, 12, 14],
+                    "texture": "#main"
                 }
             }
         },
@@ -63,27 +62,27 @@
             "faces": {
                 "down": {
                     "uv": [0, 0, 12, 12],
-                    "texture": "#ringLauncher"
+                    "texture": "#stonebrick"
                 },
                 "up": {
                     "uv": [0, 0, 12, 12],
-                    "texture": "#ringLauncher"
+                    "texture": "#stonebrick"
                 },
                 "north": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 8, 14, 10],
+                    "texture": "#main"
                 },
                 "south": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 8, 14, 10],
+                    "texture": "#main"
                 },
                 "west": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 8, 14, 10],
+                    "texture": "#main"
                 },
                 "east": {
-                    "uv": [0, 0, 12, 2],
-                    "texture": "#ringLauncher"
+                    "uv": [2, 8, 14, 10],
+                    "texture": "#main"
                 }
             }
         },
@@ -92,24 +91,24 @@
             "to": [10, 15, 10],
             "faces": {
                 "up": {
-                    "uv": [0, 0, 4, 4],
-                    "texture": "#ringLauncher"
+                    "uv": [6, 1, 10, 5],
+                    "texture": "#main"
                 },
                 "north": {
-                    "uv": [0, 0, 4, 7],
-                    "texture": "#ringLauncher"
+                    "uv": [6, 1, 10, 8],
+                    "texture": "#main"
                 },
                 "south": {
-                    "uv": [0, 0, 4, 7],
-                    "texture": "#ringLauncher"
+                    "uv": [6, 1, 10, 8],
+                    "texture": "#main"
                 },
                 "west": {
-                    "uv": [0, 0, 4, 7],
-                    "texture": "#ringLauncher"
+                    "uv": [6, 1, 10, 8],
+                    "texture": "#main"
                 },
                 "east": {
-                    "uv": [0, 0, 4, 7],
-                    "texture": "#ringLauncher"
+                    "uv": [6, 1, 10, 8],
+                    "texture": "#main"
                 }
             }
         }
