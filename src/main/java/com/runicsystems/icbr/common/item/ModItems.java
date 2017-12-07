@@ -15,7 +15,7 @@ public class ModItems
 
 	public static void init()
 	{
-		ingotCopper = register(new ItemBase("ingotCopper"));
+		ingotCopper = register(new ItemOre("ingotCopper", "ingotCopper"));
 		copperCoil = register(new ItemBase("copperCoil"));
 		wireCopper = register(new ItemBase("wireCopper"));
 	}
@@ -23,9 +23,15 @@ public class ModItems
 	private static <T extends Item> T register(T item)
 	{
 		GameRegistry.register(item);
+
 		if(item instanceof ItemBase)
 		{
 			((ItemBase)item).registerItemModel();
+		}
+
+		if(item instanceof ItemOreDict)
+		{
+			((ItemOreDict)item).initOreDict();
 		}
 
 		return item;

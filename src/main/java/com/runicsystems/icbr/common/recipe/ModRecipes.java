@@ -4,6 +4,7 @@ import com.runicsystems.icbr.common.block.ModBlocks;
 import com.runicsystems.icbr.common.item.ModItems;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.ShapedOreRecipe;
 
 /**
  * Author: neromir
@@ -13,7 +14,7 @@ public class ModRecipes
 {
 	public static void init()
 	{
-		GameRegistry.addShapedRecipe(new ItemStack(ModItems.wireCopper, 3), " C ", " C ", " C ", 'C', ModItems.ingotCopper);
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.wireCopper, 3), " C ", " C ", " C ", 'C', "ingotCopper"));
 		GameRegistry.addSmelting(ModBlocks.oreCopper, new ItemStack(ModItems.ingotCopper), 0.7f);
 	}
 }

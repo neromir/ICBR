@@ -1,5 +1,6 @@
 package com.runicsystems.icbr.common.block;
 
+import com.runicsystems.icbr.common.item.ItemOreDict;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
@@ -15,7 +16,7 @@ public class ModBlocks
 
 	public static void init()
 	{
-		oreCopper = register(new BlockOre("oreCopper"));
+		oreCopper = register(new BlockOre("oreCopper", "oreCopper"));
 		ringLauncher = register(new RingLauncher());
 	}
 
@@ -27,6 +28,16 @@ public class ModBlocks
 		if(block instanceof BlockBase)
 		{
 			((BlockBase)block).registerItemModel(itemBlock);
+		}
+
+		if(block instanceof ItemOreDict)
+		{
+			((ItemOreDict)block).initOreDict();
+		}
+
+		if(itemBlock instanceof ItemOreDict)
+		{
+			((ItemOreDict)itemBlock).initOreDict();
 		}
 
 		return block;
