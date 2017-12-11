@@ -8,13 +8,13 @@
             "to": [14, 2, 14],
             "faces": {
                 "down": {
-                    "uv": [0, 0, 12, 12],
-                    "texture": "#stonebrick",
+                    "uv": [2, 2, 14, 14],
+                    "texture": "#mainTop",
                     "cullface": "down"
                 },
                 "up": {
-                    "uv": [0, 0, 12, 12],
-                    "texture": "#stonebrick"
+                    "uv": [2, 2, 14, 14],
+                    "texture": "#mainTop"
                 },
                 "north": {
                     "uv": [2, 14, 14, 16],
@@ -61,12 +61,12 @@
             "to": [14, 8, 14],
             "faces": {
                 "down": {
-                    "uv": [0, 0, 12, 12],
-                    "texture": "#stonebrick"
+                    "uv": [2, 2, 14, 14],
+                    "texture": "#mainTop"
                 },
                 "up": {
-                    "uv": [0, 0, 12, 12],
-                    "texture": "#stonebrick"
+                    "uv": [2, 2, 14, 14],
+                    "texture": "#mainTop"
                 },
                 "north": {
                     "uv": [2, 8, 14, 10],

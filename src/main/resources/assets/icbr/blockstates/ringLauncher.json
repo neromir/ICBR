@@ -5,7 +5,8 @@
             "model": "icbr:ringLauncher",
             "textures": {
                 "main": "icbr:blocks/ringLauncher",
-                "stonebrick": "blocks/stonebrick"
+                "stonebrick": "blocks/stonebrick",
+                "mainTop": "icbr:blocks/ringLauncherTop"
             }
         },
         "inventory": {
@@ -13,7 +14,8 @@
             "transform": "forge:default-block",
             "textures": {
                 "main": "icbr:blocks/ringLauncher",
-                "stonebrick": "blocks/stonebrick"
+                "stonebrick": "blocks/stonebrick",
+                "mainTop": "icbr:blocks/ringLauncherTop"
             }
         }
     }
