@@ -1,5 +1,6 @@
 package com.runicsystems.icbr.common.block;
 
+import com.runicsystems.icbr.common.block.launcher.RingLauncher;
 import com.runicsystems.icbr.common.item.ItemOreDict;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
@@ -38,6 +39,11 @@ public class ModBlocks
 		if(itemBlock instanceof ItemOreDict)
 		{
 			((ItemOreDict)itemBlock).initOreDict();
+		}
+
+		if(block instanceof BlockTileEntity)
+		{
+			GameRegistry.registerTileEntity(((BlockTileEntity<?>)block).getTileEntityClass(), block.getRegistryName().toString());
 		}
 
 		return block;

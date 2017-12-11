@@ -20,6 +20,11 @@ public class ItemBase extends Item
 		setCreativeTab(ICBR.creativeTab);
 	}
 
+	public String getName()
+	{
+		return name;
+	}
+
 	public void registerItemModel()
 	{
 		ICBR.proxy.registerItemRenderer(this, 0, name);

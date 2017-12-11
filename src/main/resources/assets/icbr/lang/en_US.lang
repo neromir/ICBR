@@ -5,6 +5,7 @@ itemGroup.icbr=ICBR
 item.ingotCopper.name=Copper Ingot
 item.copperCoil.name=Copper Coil
 item.wireCopper.name=Copper Wire
+item.ring.name=Ring
 
 # Blocks
 tile.oreCopper.name=Copper Ore
